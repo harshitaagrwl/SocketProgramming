@@ -1,0 +1,19 @@
+What is socket programming?
+
+Socket programming is a way of connecting two nodes on a network to communicate with each other. One socket(node) listens on a particular port at an IP, while other socket reaches out to the other to form a connection. Server forms the listener socket while client reaches out to the server.
+
+Python’s socket module provides an interface to the Berkeley sockets API.
+
+The primary socket API functions and methods in this module are:
+
+socket()
+bind()
+listen()
+accept()
+connect()
+connect_ex()
+send()
+recv()
+close()
+
+Python provides a convenient and consistent API that maps directly to these system calls, their C counterparts. 
